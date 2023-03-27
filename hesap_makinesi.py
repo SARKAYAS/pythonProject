@@ -1,6 +1,6 @@
 print(".......HESAP MAKİNESİ.......")
 print("İŞLEMLER:")
-print("1:Toplama\n2:Çıkartma\n3:Çarpma\n4:Bölme")
+print("1:Toplama\n2:Çıkartma\n3:Çarpma\n4:Bölme\n5:Üssünü Alma")
 print("Yapacağınız işlemi giriniz:")
 islem=input()
 islem1=int(islem)
@@ -33,6 +33,13 @@ elif islem1==4:
     print("Bölünecek ikinci sayıyı giriniz: ")
     sayi2 = input()
     print("Bölme:", float(sayi1) / float(sayi2))
+
+elif islem1==5:
+    print("Tabandaki sayıyı giriniz: ")
+    sayi1 = input()
+    print("Üs sayıyı giriniz: ")
+    sayi2 = input()
+    print("Üs alma:", float(sayi1)**float(sayi2))
 
 else:
     print("Yanlış sayı girdiniz...")

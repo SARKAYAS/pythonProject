@@ -82,3 +82,4 @@ print(benim_listem[2])
 print(type(benim_listem))
 benim_listem[2]=100
 print(benim_listem[2])
+print(benim_listem)
