@@ -75,11 +75,14 @@ print(nested_list)
 print(nested_list[0])
 print(nested_list[1])
 print(nested_list[2])
+print(type(nested_list[2]))
 print(nested_list[3])
 print(nested_list[4])
 print(nested_list[4][2])
 
 #DICTIONARY - SÖZLÜK ( {} kullanılır.)
+#dictionay= {keys:values}
+
 
 benim_sozluk= {"anahtarkelime" : "değer"}
 print(benim_sozluk["anahtarkelime"])
@@ -114,9 +117,11 @@ print(karisik_sozluk["değer"])
 listeli_sozluk= {"anahtar1":100, "anahtar2":[0,1,2,3,4,5,6,7,8,9], "anahtar3":{"anahtar31":2023}}
 print(listeli_sozluk["anahtar1"])
 print(listeli_sozluk["anahtar2"])
+print(listeli_sozluk["anahtar3"])
 print(listeli_sozluk["anahtar2"][5])
 print(listeli_sozluk["anahtar2"][0])
 print(listeli_sozluk["anahtar3"]["anahtar31"])
+
 
 #SETLER
 'Birden fazla barındırılan elemanları siler'
@@ -147,7 +152,7 @@ print(type(set2))
 setten_listeye=list(set2)
 print(setten_listeye)
 print(type(setten_listeye))
-'Setten listeye tekrar çevirirken önvceki çoğul sayılar gitmiş olur.'
+'Setten listeye tekrar çevirirken önceki çoğul sayılar gitmiş olur.'
 
 
 #TUPLE
@@ -160,3 +165,33 @@ print(benim_tuple)
 print(type(benim_tuple))
 print(benim_tuple.count(5))
 
+
+
+
+#**********    ÖZET   **********
+
+
+
+#LİSTELERDE [] KULLANILIR.
+  #öRNEĞİN:
+
+only_liste=[10,20,"a"]
+
+
+#SÖZLİKLERDE {} KULLANILIR.
+  #DİCTİONRY= {"KEYS":"VALUES"}
+
+  #ÖRNEĞİN:
+
+only_dictionary={"seni" : "seviyorum"}
+
+
+#SETLERDE {} KULLANILIR.
+  #LİSTE VE DİCTİONARY'NİN KARIŞIMI GİBİ
+
+only_set={"ayşo",2,8,}
+
+
+#TUPLE () KULLANILIR.
+
+benim_tuple=("hello",1,"world",2)
