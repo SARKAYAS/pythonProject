@@ -53,6 +53,23 @@ for number in liste:
 for number in liste:
     pass
 
+
+
+#RANGE
+
+print("\n\n...Range vol1...\n\n")
+
+for i in range(20,50):
+    print(i)
+
+'20den başlatıp 999a kadar yazırıyor. 1000 dahil olmuyor. '
+
+print("\n\n...Range vol2...\n\n")
+
+for i in range(100,200,5):
+    'Başlangıç değeri,bitiş değeri-1, artma sayısı'
+    print(i)
+
 #WHILE
 
 print("\n")
